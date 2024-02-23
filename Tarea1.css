@@ -1,0 +1,13 @@
+div .classbloque{
+    background-color: grey;
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+}
+
+div span img{
+    height: 300px;
+    width: 200px;
+}

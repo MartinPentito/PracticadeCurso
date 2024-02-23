@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer formulario</title>
+</head>
+<body>
+    <h1>Mi primer formulario</h1>
+    <form>
+        <label for="nombre">Name :</label>
+        <input id="nombre" type="nombre">
+        <br>
+        <br>
+        <span>Sex :
+        <label for="masculino">Male</label>
+        <input type="radio" id="masculino" name="sexo">
+        <label for="femenino">Female</label>
+        <input type="radio" id="femenino" name="sexo">
+        </span>
+        <br>
+        <br>
+        <label for="nacionalidad">Selecciona tu nacionalidad :
+            <select id="nacionalidad">
+                <option value="nada" selected disabled>Select an option</option>
+                <option value="argentina">Argentina</option>
+                <option value="francia">Francia</option>
+                <option value="brasil">Brasil</option>
+            </select>
+        </label>
+        <br>
+        <br>
+        <label for="mensaje">Message :</label>
+        <textarea id="mensaje"></textarea>
+        <br>
+        <br>
+        <span>Subscribe?</span>
+        <input type="checkbox">
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>

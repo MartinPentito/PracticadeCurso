@@ -44,12 +44,11 @@ p{
     width:30px;
     height: 12px;
     padding-inline: 8px;
-    
-    
-
 }
 
 nav{
     display: flex;
     margin: auto;
 }
+
+

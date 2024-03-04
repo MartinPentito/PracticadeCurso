@@ -1,0 +1,224 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+body{
+    background-color: rgba(245, 242, 235, 1);
+}
+
+section{
+    width: 1440px;
+    height: 1024px;
+    top: -511px;
+    left: -720px;
+
+}
+
+
+/* CARACTERISTICAS HEADER */
+header{
+    background-color:#F5F2EB;
+    width: 1440px;
+    height: 80px;
+    padding: 20px,70px,20px,70px;
+    gap: 236px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+header div{
+    margin-right: 100px;
+}
+
+div .header-container{
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-container a{
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    color:#000000;
+    width: 86px;
+    height: 45px;
+    border-radius: 4px;
+    padding:12px, 18px, 12px, 18px;
+    gap: 10px;
+}
+
+.header-container button{
+    background-color:#AED6B3;
+    Width:164px;
+    height: 45px;
+    border-radius: 4px;
+    padding: 12px, 18px, 12px, 18px;
+    gap: 10px;
+    border: none;
+}
+
+i .bi-globe{
+    height: 16px;
+    width: 16px;
+}
+
+i .bi-arrow-up-right{
+    height: 24px;
+    width: 24px;
+}
+
+/* CARACTERISTICAS SECTION */
+section{
+    width: 1440px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+
+img{
+    width: 598.8px;
+    height: 600px;
+    top: 218px;
+    left: 745px;
+}
+
+/* CARACTERISTICAS FORM */
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color:rgba(255, 255, 255, 1);
+    width: 480px;
+    height: 648px;
+    top: 188px;
+    left: 180px;
+    border-radius: 30px;
+}
+
+h1{
+    font-family:"Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0.5px;
+    color:  rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+h2{
+    font-family:"Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.left{
+    margin-right: 106px;
+}
+
+.trademark{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.in{
+    background-color: rgba(174, 214, 179, 1);
+    width: 376px;
+    height: 48px;
+    border-radius: 8px;
+    gap: 10px;
+    margin-left: 52px;
+}
+
+.emailbox{
+    display: flex;
+    justify-content: center;
+}
+
+.passwordbox{
+    display: flex;
+    justify-content: center;
+}
+
+
+#email{
+    width: 376px;
+    height:48px;
+}
+
+#password{
+    width: 376px;
+    height:48px;
+}
+
+a .bi-google{  
+    width: 120px;
+    height: 40px;
+    text-decoration: none;
+    color:rgba(0, 0, 0, 1);
+    padding: 16px, 30px, 16px, 30px;
+    border-radius: 40px;
+    border: 1px;
+    gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.google{
+    text-decoration: none;
+}
+
+a .bi-apple{  
+    width: 120px;
+    height: 40px;
+    text-decoration: none;
+    color:rgba(0, 0, 0, 1);
+    padding: 16px, 30px, 16px, 30px;
+    border-radius: 40px;
+    gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.apple{
+    text-decoration: none;
+}
+
+a .bi-facebook{ 
+    width: 120px;
+    height: 40px;
+    color:rgba(0, 0, 0, 1);
+    padding: 16px, 30px, 16px, 30px;
+    border-radius: 40px;
+    gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    text-decoration: none; 
+}
+
+.facebook{
+    text-decoration: none;
+}
+
+.registernow{
+    text-decoration: none;
+    color: #000000;
+}
